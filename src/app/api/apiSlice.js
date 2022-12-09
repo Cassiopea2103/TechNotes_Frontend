@@ -1,7 +1,7 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react'
 import { setCredentials } from '../../features/auth/authSlice'
 
-const serverUrl= 'https://technotes.onrender.com'
+const serverUrl= 'https://technotes-api-b2be.onrender.com/'
 
 // including token we get from the backend response in request headers:
 const baseQuery= fetchBaseQuery({
